@@ -1,0 +1,21 @@
+{
+  "name": "ui-models",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run formatter && tsc -p tsconfig.json",
+    "codegen": "node dist/tools/main",
+    "formatter": "prettier --write \"src/**/*.ts\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^13.13.5",
+    "prettier": "^2.0.5",
+    "tslib": "^1.11.2",
+    "typescript": "^3.8.3"
+  }
+}
