@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "prebuild": "rimraf dist",
     "build": "npm run formatter && tsc -p tsconfig.json",
     "codegen": "node dist/tools/main",
     "formatter": "prettier --write \"src/**/*.ts\""
@@ -15,6 +16,7 @@
   "devDependencies": {
     "@types/node": "^13.13.5",
     "prettier": "^2.0.5",
+    "rimraf": "^3.0.2",
     "tslib": "^1.11.2",
     "typescript": "^3.8.3"
   }
