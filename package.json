@@ -2,6 +2,10 @@
   "name": "@deux/models",
   "version": "0.0.1",
   "description": "model for deux tools",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:ashiras-technology/ui-models.git"
+  },
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "npm run formatter && tsc -p tsconfig.json",
@@ -11,7 +15,7 @@
   "keywords": [
     "typescript"
   ],
-  "author": "Fumio SAGAWA",
+  "author": "Ashiras, inc.",
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
