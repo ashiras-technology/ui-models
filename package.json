@@ -1,7 +1,7 @@
 {
-  "name": "@deux/models",
-  "version": "0.0.1",
-  "description": "model for deux tools",
+  "name": "@auxy/models",
+  "version": "1.0.0",
+  "description": "model for auxy tools",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com:ashiras-technology/ui-models.git"
